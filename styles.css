@@ -1,0 +1,261 @@
+body {
+    max-width: 1140px;
+    margin: auto;
+    font-family: Arial Black;
+}
+
+.item11 h4,
+.item12 h4,
+.item13 h4 {
+    transform: rotate(270deg);
+    position: absolute;
+    margin-top: 266px;
+    transform-origin: 0 0;
+    margin-left: -58px;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+}
+
+.box1 {
+    display: flex;
+    margin-top: 25px;
+    width: 100%;
+}
+
+.box2 {
+    display: flex;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.box3 {
+    display: flex;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.pri {
+    display: flex;
+    margin-top: 90px;
+    color: #ad202f;
+}
+
+.des1 p {
+    margin: 0px;
+    margin-top: -15px;
+    font-size: 14px;
+}
+
+.des2 p {
+    font-size: 11px;
+    font-family: arial;
+    color: #989494;
+    margin: 5px 0px 0px 0px;
+}
+
+.pri1 p {
+    font-size: 95px;
+    margin: 0px;
+}
+
+.pri2 p {
+    font-size: 50px;
+    margin: 20px 0px 0px 0px;
+}
+
+.item11,
+.item12,
+.item13,
+.item21,
+.item22,
+.item23,
+.item31,
+.item32,
+.item33 {
+    display: flex;
+    background-color: #f1f1f1;
+    margin-right: 15px;
+    padding: 5px 15px;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+}
+
+.item11:hover,
+.item12:hover,
+.item13:hover,
+.item21:hover,
+.item22:hover,
+.item23:hover,
+.item31:hover,
+.item32:hover,
+.item33:hover {
+    animation: pulse;
+    animation-duration: 500ms;
+}
+
+.item11 {
+    border-left: 48px solid #ad202f;
+}
+
+.item12 {
+    border-left: 48px solid #5c95af;
+}
+
+.item13 {
+    border-left: 48px solid #f2b64d;
+}
+
+.pri211 p {
+    font-size: 70px;
+    margin: 0px;
+}
+
+.pri212 p {
+    font-size: 50px;
+    margin: 8px 0px 0px 0px;
+}
+
+.pri232 P {
+    margin: -16px 0px 0px 0px;
+    font-size: 38px;
+}
+
+.pri232 {
+    margin: 42px 0px 0px 0px;
+}
+
+.img {
+    margin-top: 50px;
+}
+
+.box4 {
+    display: flex;
+    margin-top: 15px;
+}
+
+.box41,
+.box42 {
+    width: 50%;
+    margin: 0px 15px 0px 0px;
+    display: flex;
+    border-radius: 6px;
+}
+
+.box41 {
+    background-color: #3b3b3b;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+}
+
+.box42 {
+    background-color: #ad202f;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+}
+
+.icon {
+    font-size: 80px;
+    padding-left: 28px;
+    padding-right: 18px;
+    color: white;
+}
+
+.finance h2 {
+    font-size: 28px;
+    margin: 0px;
+}
+
+.signup h2 {
+    font-size: 30px;
+    margin: 0px;
+}
+
+.finance p,
+.signup p {
+    font-size: 18px;
+    margin: 0px;
+}
+
+.signup,
+.finance {
+    margin: auto 0px;
+    color: white;
+}
+
+.shop {
+    font-size: 32px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box5l,
+.box5r {
+    display: flex;
+}
+
+.box5 {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.box5 h4 {
+    font-size: 26px;
+    color: white;
+}
+
+.box5 img {
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+}
+
+.box51,
+.box52,
+.box53,
+.box54,
+.box61,
+.box62,
+.box63,
+.box64,
+.box71,
+.box72,
+.box73,
+.box74 {
+    margin: 0px 15px 0px 0px;
+}
+
+.box51:hover,
+.box52:hover,
+.box53:hover,
+.box54:hover,
+.box61:hover,
+.box62:hover,
+.box63:hover,
+.box64:hover,
+.box71:hover,
+.box72:hover,
+.box73:hover,
+.box74:hover {
+    animation: pulse;
+    animation-duration: 500ms;
+}
+
+.box51 h4 {
+    position: absolute;
+    margin: 76px 0px 0px 56px;
+}
+
+.box52 h4 {
+    position: absolute;
+    margin: 76px 0px 0px 54px;
+}
+
+.box53 h4 {
+    position: absolute;
+    margin: 76px 0px 0px 66px;
+}
+
+.box54 h4 {
+    position: absolute;
+    margin: 76px 0px 0px 22px;
+}
